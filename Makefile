@@ -37,4 +37,4 @@ runtests:
 clean:
 	find . -name \*.class -type f -delete
 	rm -rf syntaxtree
-	rm JavaCharStream.java MiniJavaParser.java MiniJavaParserConstants.java MiniJavaParserTokenManager.java ParseException.java minijava-jtb.jj
+	rm JavaCharStream.java MiniJavaParser.java MiniJavaParserConstants.java MiniJavaParserTokenManager.java ParseException.java minijava-jtb.jj Token.java TokenMgrError.java
